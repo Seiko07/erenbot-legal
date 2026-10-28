@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Politique de confidentialité du bot Discord Eren.">
+  <title>Politique de confidentialité — Eren</title>
+  <style>
+    :root { color-scheme: dark; --bg:#11131a; --panel:#1c202b; --text:#e6e9f2; --muted:#b4bdcc; --accent:#5865f2; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(860px,calc(100% - 32px)); margin:48px auto; padding:clamp(24px,5vw,48px); background:var(--panel); border:1px solid #303644; border-radius:16px; }
+    h1,h2 { line-height:1.25; } h1 { margin-top:0; } h2 { margin-top:2em; font-size:1.25rem; }
+    p,li { color:var(--muted); } a { color:#aeb8ff; } code { color:#e2e5ff; }
+    nav { display:flex; gap:18px; margin-bottom:28px; }
+  </style>
+</head>
+<body>
+<main>
+  <nav aria-label="Pages légales"><a href="conditions.html">Conditions d’utilisation</a></nav>
+  <h1>Politique de confidentialité d’Eren</h1>
+  <p><strong>Dernière mise à jour : 28 octobre 2026</strong></p>
+  <h2>Qui exploite Eren ?</h2>
+  <p>Eren est un bot Discord exploité par son propriétaire. Pour toute question sur cette politique, une demande de suppression ou l’exercice d’un droit relatif aux données, contacte le responsable via <a href="https://discord.com/users/1449901195551313920">son profil Discord</a>.</p>
+
+  <h2>Données traitées</h2>
+  <ul>
+    <li>Les identifiants Discord des utilisateurs, serveurs, salons et rôles nécessaires à l’exécution des commandes et à l’administration du bot.</li>
+    <li>Le contenu des messages qui commencent par le préfixe configuré, afin de reconnaître la commande et ses paramètres. Le bot ne conserve pas les messages de commande ordinaires dans ses fichiers de données.</li>
+    <li>Les informations de modération enregistrées à la demande des administrateurs : notes, avertissements et autres sanctions, motifs, identifiants et noms Discord des personnes concernées et des modérateurs, pseudos verrouillés, ainsi que les échéances de sanctions temporaires.</li>
+    <li>Les identifiants des personnes autorisées à utiliser ou gérer le bot (owners et buyers), ainsi que les identifiants des emojis de catégories du menu d’aide.</li>
+    <li>Pour <code>+dmall</code>, la liste des membres humains du serveur et le texte rédigé par le modérateur sont traités pour préparer l’aperçu puis envoyer le message après confirmation. Cette opération n’enregistre pas le texte dans les fichiers de données du bot.</li>
+    <li>Pour les commandes musicales, le lien fourni est utilisé pour rechercher ou lire le contenu public demandé. Les plateformes source, par exemple YouTube ou TikTok, peuvent recevoir les requêtes nécessaires à la lecture selon leurs propres règles.</li>
+  </ul>
+
+  <h2>Pourquoi ces données sont-elles utilisées ?</h2>
+  <p>Eren utilise ces informations pour répondre aux commandes, appliquer les réglages et actions de modération demandés par les personnes autorisées, maintenir les accès au bot, gérer les fonctions de musique et transmettre les messages privés confirmés par un modérateur. Eren ne vend pas ces données et n’utilise pas de publicité ou d’analyse d’audience dans le code fourni.</p>
+
+  <h2>Stockage et durée de conservation</h2>
+  <p>Les listes d’accès et données de modération sont conservées dans les fichiers <code>data/access.json</code> et <code>data/moderation.json</code> sur la machine qui héberge le bot. Les notes et l’historique des sanctions restent enregistrés jusqu’à leur suppression par un administrateur ou jusqu’à la suppression des fichiers. Les commandes de gestion permettent notamment de supprimer des notes et sanctions. Les accès peuvent être retirés avec les commandes de gestion owners/buyers. Les tempbans actifs sont retirés du suivi après leur échéance ; les timeouts expirés sont nettoyés lors de leur consultation ou lorsqu’ils sont levés. L’historique correspondant reste conservé jusqu’à sa suppression. Les données de lecture musicale restent en mémoire et disparaissent lorsque la lecture s’arrête ou que le bot redémarre.</p>
+
+  <h2>Partage</h2>
+  <p>Les données sont transmises à Discord lorsque cela est nécessaire au fonctionnement du bot et aux actions demandées dans Discord. Les liens musicaux sont traités par les plateformes concernées pour obtenir le contenu demandé. Eren n’envoie pas les fichiers locaux de données à ces plateformes.</p>
+
+  <h2>Visite de ce site</h2>
+  <p>Les présentes pages sont hébergées par GitHub Pages. GitHub indique que l’adresse IP des visiteurs de ses sites Pages est enregistrée et conservée à des fins de sécurité. Consulte la <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité de GitHub</a> pour plus d’informations.</p>
+
+  <h2>Demandes relatives aux données</h2>
+  <p>Un membre peut demander au propriétaire du serveur de supprimer les notes ou entrées d’historique de sanctions le concernant, lorsque ces fonctions sont disponibles. Pour une demande portant sur les autres fichiers ou pour une question sur les données, contacte le responsable d’Eren via son <a href="https://discord.com/users/1449901195551313920">profil Discord</a>. Les données conservées par Discord ou par les plateformes musicales relèvent également de leurs propres politiques et outils.</p>
+
+  <h2>Sécurité et modifications</h2>
+  <p>Les fichiers sont stockés sur l’ordinateur ou le serveur choisi par l’exploitant du bot. La sécurité de cette machine et les sauvegardes relèvent de son exploitant. Cette politique pourra être mise à jour si le fonctionnement ou les données traitées par Eren changent ; la date en haut de page sera alors actualisée.</p>
+</main>
+</body>
+</html>
+
